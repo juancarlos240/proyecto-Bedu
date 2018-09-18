@@ -1,119 +1,125 @@
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    right: 0;
-    left: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  right: 0;
+  left: 0;
+  box-sizing: inherit;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    /*font-size: 16px;*/
-    line-height: 1.7;
-    color: #777;
-    box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  /*font-size: 16px;*/
+  line-height: 1.7;
+  color: #777;
+  box-sizing: border-box;
 }
 
 .header {
-    width: 100vw;
+  width: 100vw;
 }
 
 .header-socials {
-    margin-right: 1.6rem;
-    width: 72px;
-    height: 186px;
-    float: right;
-    z-index: 10;
+  margin-right: 1.6rem;
+  width: 72px;
+  height: 186px;
+  float: right;
+  z-index: 10;
 }
 
 .items-socials {
-    margin: 1.8rem 1.6rem 0 1.6rem;
-    width: 3.8rem;
-    height: 3.8rem;
+  margin: 1.8rem 1.6rem 0 1.6rem;
+  width: 3.8rem;
+  height: 3.8rem;
 }
 
 .logo-header {
-    margin: 2.1rem 2rem 2.1rem 2.4rem;
-    width: 3.8rem;
-    height: 3.8rem;
-    list-style-type: none;
+  margin: 2.1rem 2rem 2.1rem 2.4rem;
+  width: 3.8rem;
+  height: 3.8rem;
+  list-style-type: none;
 }
 
 .item-header {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: transparent;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
 }
 
 .header-socials ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .header ul li {
-    float: left;
+  float: left;
 }
 
 .item-header {
-    margin: 3.2rem 2.8rem;
-    height: 1.6rem;
+  margin: 3.2rem 2.8rem;
+  height: 1.6rem;
 }
 
 .header ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-    font-stretch: condensed;
-    line-height: normal;
-    letter-spacing: 1px;
-    text-align: center;
-    color: #ffffff;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .header ul li a:hover {
-    color: #b4d3d1;
+  color: #b4d3d1;
 }
 
 .header__container {
-    height: 8rem;
-    background-color: #00695c;
-    -webkit-box-shadow: 0px 7px 26px -1px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 7px 26px -1px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 7px 26px -1px rgba(0, 0, 0, 0.3);
+  height: 8rem;
+  background-color: #00695c;
+  -webkit-box-shadow: 0px 7px 26px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 7px 26px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 7px 26px -1px rgba(0, 0, 0, 0.3);
 }
 
 .card-3 {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .anim-pulso {
-    animation: pulseLogo 2s infinite;
-    animation-iteration-count: infinite;
+  animation: pulseLogo 2s infinite;
+  animation-iteration-count: infinite;
 }
 
 @keyframes pulseLogo {
-    from {
-        transform: scale3d(1, 1, 1);
-    }
-    50% {
-        transform: scale3d(1.5, 1.5, 1.5);
-    }
-    to {
-        transform: scale3d(1, 1, 1);
-    }
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(1.5, 1.5, 1.5);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.fondoEncabezado {
+  background-color: #0d47a1;
+  color: white;
+  text-align: center;
 }
